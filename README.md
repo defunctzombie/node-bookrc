@@ -1,4 +1,4 @@
-# bookrc
+# bookrc [![Build Status](https://secure.travis-ci.org/shtylman/node-bookrc.png?branch=master)](http://travis-ci.org/shtylman/node-bookrc) #
 
 automatically load book logging configuration from your environment or valid bookrc.js files.
 

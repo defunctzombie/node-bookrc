@@ -13,6 +13,7 @@ In the root of our app, we would create a `bookrc.js` file which can setup addit
 ```javascript
 var log = require('book').default();
 var raven = require('book-raven');
+var git = require('book-git');
 
 // we want to add a .commit field to our log entry with the git commit hash
 log.use(git(__dirname));

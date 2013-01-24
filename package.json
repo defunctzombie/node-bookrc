@@ -1,0 +1,21 @@
+{
+  "name": "bookrc",
+  "version": "0.0.0",
+  "description": "automatic config loading for the book logging framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/node-bookrc.git"
+  },
+  "keywords": [
+    "logging",
+    "book",
+    "log"
+  ],
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

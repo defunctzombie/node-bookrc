@@ -38,6 +38,10 @@ log.info('foo');
 log.error('bar');
 ```
 
+## BOOK_RC env variable
+
+If bookrc.js does not exist in the root of your project, or bookrc cannot find it. You can specify it manually using the `BOOK_RC` environment variable. Set the variable to the absolute location of the bookrc.js file and bookrc will load that instead of searching.
+
 ## install
 
 Bookrc does not depend on book and vice versa. You must install both to have logging functionality. Bookrc is simply a dynamic loader for the bookrc.js file in your project.

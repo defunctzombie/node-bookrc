@@ -32,7 +32,7 @@ function use_bookrc() {
 // if bookrc loading is disabled
 // just return regular book module
 if (!use_bookrc()) {
-    module.exports = require('book');
+    module.exports = require('book').default();
     return;
 }
 
@@ -64,5 +64,5 @@ for (var i=0 ; i<paths.length ; ++i) {
 }
 
 // if no bookrc, then just return book
-module.exports = require('book');
+module.exports = require('book').default();
 

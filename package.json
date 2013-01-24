@@ -4,11 +4,15 @@
   "description": "automatic config loading for the book logging framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --ui qunit test"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/shtylman/node-bookrc.git"
+  },
+  "devDependencies": {
+    "book": "1.2.0",
+    "mocha": "1.8.1"
   },
   "keywords": [
     "logging",

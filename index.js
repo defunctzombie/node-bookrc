@@ -49,8 +49,8 @@ var parent = module.parent;
 while (parent.parent) {
     parent = parent.parent;
 }
-var start_path = parent.paths.shift();
-var paths = bookrc_paths(start_path);
+
+var paths = bookrc_paths(parent.paths[0]);
 
 for (var i=0 ; i<paths.length ; ++i) {
     var pth = paths[i];

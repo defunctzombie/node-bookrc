@@ -1,4 +1,6 @@
-# bookrc [![Build Status](https://secure.travis-ci.org/shtylman/node-bookrc.png?branch=master)](http://travis-ci.org/shtylman/node-bookrc) #
+# bookrc [![Build Status](https://secure.travis-ci.org/defunctzombie/node-bookrc.png?branch=master)](http://travis-ci.org/defunctzombie/node-bookrc) #
+
+// TODO add link to book repo
 
 automatically load book logging configuration from your environment or valid bookrc.js files.
 

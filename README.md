@@ -1,12 +1,10 @@
 # bookrc [![Build Status](https://secure.travis-ci.org/defunctzombie/node-bookrc.png?branch=master)](http://travis-ci.org/defunctzombie/node-bookrc) #
 
-// TODO add link to book repo
+Automatically load [book](https://github.com/defunctzombie/node-book) logging configuration from your environment or valid bookrc.js files.
 
-automatically load book logging configuration from your environment or valid bookrc.js files.
+bookrc allows you to configure your [book](https://github.com/defunctzombie/node-book) logging in one place for your project. It follows a simple lookup pattern and returns either your `bookrc.js` file or the default `book` module.
 
-bookrc allows you to configure your book logging in one place for your project. It follows a simple lookup pattern and returns either your `bookrc.js` file or the default `book` module.
-
-## use
+## Quickstart
 
 Lets say we have application code which wants to do some logging and we want the logging to be sent to various locations and processed through the book middleware stack.
 
